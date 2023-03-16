@@ -27,6 +27,12 @@ namespace ScuolaVerifica
 
         private void crea_Click(object sender, RoutedEventArgs e)
         {
+            Alunno a = new Alunno();
+            a.nome = nome.Text;
+            a.cognome = Cognome.Text;
+            string s = eta.Text;
+
+            a.eta = eta.Text;
 
         }
     }
