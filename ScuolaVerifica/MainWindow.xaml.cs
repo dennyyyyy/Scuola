@@ -24,5 +24,10 @@ namespace ScuolaVerifica
         {
             InitializeComponent();
         }
+
+        private void crea_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
